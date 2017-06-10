@@ -1,0 +1,274 @@
+
+.menubar {
+	display: inline-block;
+	background-color: #000000;
+	color: #000000;
+	height: 60px;
+	width: 70%;
+}
+.label {
+	color: #FFF;
+	display: inline-block;
+	text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+
+}
+
+@font-face {
+    font-family: companyFont;
+    src: url(norwester.woff);
+}
+a.compname {
+	float:left;
+	text-decoration: none;
+	font-family: companyFont;
+	font-size: 30px;
+	margin-bottom: 40px;
+	padding: 15px;
+}
+.menu {
+	float:right;
+	font-family: companyFont;
+	margin-right: 3%;
+}
+a:hover {
+	background-color: #fff;
+	color: #000;
+}
+.menu a.active{
+	background-color: #fff;
+	color: #000;
+}
+
+.menu a{
+	    padding: 22px 18px;
+}
+span a{
+	font-size: 16px;
+	text-decoration: none;
+	color:#fff;
+}
+.featcombo {
+	width: 70%;
+	height: 40px;
+	margin-top: 3%;
+	background-color: #000;
+	color: #fff;
+	font-family: companyFont;
+	font-size: 40px;
+	text-align: center;
+}
+.combocontent {
+	padding:0.8%;
+	font-size: 25px;
+}
+
+.combocontent1 {
+	padding:0.4%;
+	font-size: 15px;
+}
+.carttable td {
+    padding-left:10px;
+    padding-right:10px;
+}
+.slides {
+	display: none;
+}
+
+.dot {
+	cursor: pointer;
+	height: 13px;
+	width: 13px;
+	margin: 0 2px;
+	background-color: #bbb;
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+	background-color: #717171;
+}
+
+.fade {
+	-webkit-animation-name: fade;
+	-webkit-animation-duration: 1.5s;
+	animation-name: fade;
+	animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+	from {opacity: .4}
+	to {opacity: 1}
+}
+
+@keyframes fade {
+	from {opacity: .4}
+}
+
+.gridedhats{
+	margin-top:2%;
+	max-width: 70%;
+	text-align: center;
+}
+[class*="col-"] {
+
+    padding: 20px 20px 20px 20px;
+    width: 14%;
+    display: inline-block;
+    width: 190px;
+    height: 190px;
+}
+a.cell {
+	text-decoration: none;
+	color: #000;
+}
+.row p {
+	font-family: 'Arial';
+	font-weight: 100;
+}
+.row span{
+	font-family: companyFont;
+}
+.titlecontent {
+	margin-top: 3%;
+	font-family: companyFont;
+	font-size: 20px;
+}
+.itemdetail {
+	float:center;
+	font-family: companyFont;
+	font-size: 18px;
+	margin-left: 28.5%;
+}
+.detailcontent {
+	width:70%;
+	text-align: left;
+	display:inline-block;
+
+}
+.additembox {
+	font-family: companyFont;
+	font-size: 16px;
+ 	float: right;
+  	position: relative;
+  	left: -50%;
+  	text-align: left;
+  	margin-bottom: 20%;
+}
+.additembox  > .orderdetails{
+	position: relative;
+  	left: 50%;
+}
+
+.detailpic {
+	overflow:hidden;
+	width:210px;
+	height:150px;
+
+}
+
+.footercombo {
+	width: 70%;
+	height: 40px;
+	margin-top: 3%;
+	background-color: #000;
+	color: #fff;
+	font-family: companyFont;
+	font-size: 20px;
+	text-align: center;
+}
+
+.abouttitle {
+	font-family: companyFont;
+	text-decoration-line:underline;
+	font-weight: 400;
+	font-size: 25px;
+	float: center;
+	padding-top: 10px;
+}
+
+.about {
+	font-family: 'Arial';
+	font-size: 15px;
+	text-align: justify;
+	width:70%;
+}
+table {
+	font-family: companyFont
+}
+/* Image Zooming*/
+.col-1 img {
+	height: 120px;
+	width: 160px;
+	-webkit-transition: all 1s ease; /* Safari and Chrome */
+  -moz-transition: all 1s ease; /* Firefox */
+  -ms-transition: all 1s ease; /* IE 9 */
+  -o-transition: all 1s ease; /* Opera */
+	transition: all 1s ease;
+}
+.col-2 img {
+	height: 120px;
+	width: 160px;
+	-webkit-transition: all 1s ease; /* Safari and Chrome */
+  -moz-transition: all 1s ease; /* Firefox */
+  -ms-transition: all 1s ease; /* IE 9 */
+  -o-transition: all 1s ease; /* Opera */
+	transition: all 1s ease;
+}
+.col-3 img {
+	height: 120px;
+	width: 160px;
+	-webkit-transition: all 1s ease; /* Safari and Chrome */
+  -moz-transition: all 1s ease; /* Firefox */
+  -ms-transition: all 1s ease; /* IE 9 */
+  -o-transition: all 1s ease; /* Opera */
+	transition: all 1s ease;
+}
+.col-4 img {
+	height: 120px;
+	width: 160px;
+	-webkit-transition: all 1s ease; /* Safari and Chrome */
+  -moz-transition: all 1s ease; /* Firefox */
+  -ms-transition: all 1s ease; /* IE 9 */
+  -o-transition: all 1s ease; /* Opera */
+	transition: all 1s ease;
+}
+
+.col-1 img:hover {
+	height: 160px;
+	width: 200px;
+}
+.col-2 img:hover {
+	height: 160px;
+	width: 200px;
+}
+.col-3 img:hover {
+	height: 160px;
+	width: 200px;
+}
+.col-4 img:hover {
+	height: 160px;
+	width: 200px;
+}
+.picwrapper{
+	width:450px;
+	height: 200px;
+}
+.fran{
+	float:left;
+	font-family: companyFont;
+}
+.tony{
+	float:right;
+	font-family: companyFont;
+	padding-left:2%;
+}
+.founders {
+	font-family: companyFont;
+	font-weight: 400;
+	font-size: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
