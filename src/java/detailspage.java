@@ -80,7 +80,7 @@ public class detailspage extends HttpServlet {
         try {
             Class.forName("com.mysql.jdbc.Driver");
             Connection con = DriverManager.getConnection(
-                    "jdbc:mysql://sylvester-mccoy-v3.ics.uci.edu/inf124-db-002", "inf124-db-002", "K5GLfG5ho!!t");
+                    "jdbc:mysql://localhost/coolfitteddb", "root","");//jdbc:mysql://sylvester-mccoy-v3.ics.uci.edu/inf124-db-002", "inf124-db-002", "K5GLfG5ho!!t");
             Statement stmt=con.createStatement();  
             ResultSet rs=stmt.executeQuery("select * from details where imagename='"+temp+"1"+"'");  
             rs.next();
